@@ -27,5 +27,10 @@ class ConferenceController extends Controller
       return view('popup.relux');
     }
 
+    function deep(){
+  //echo "string";
+      return view('popup.deep');
+    }
+
 
 }

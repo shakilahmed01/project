@@ -6,7 +6,7 @@
 
     <!--Book Table-->
     <div class="col-lg-6 col-md-10 mx-auto">
-      <div class="jumbotron jumbotron-fluid" style="background-image: url('{{asset('image/1s1-1st.jpeg')}}')">
+      <div  class="jumbotron text-white jumbotron-image shadow" style="background-image: url('{{asset('image/1s1-1st.jpeg')}}')">
 
           <div class="container">
             <h3 style="display-4: inline-block;"></h3>
@@ -76,7 +76,7 @@
         </div>
         </div>
 
-        <div class="jumbotron jumbotron-fluid" style="background-image: url('{{asset('P2IOS/main.jpeg')}}')">
+        <div  class="jumbotron text-white jumbotron-image shadow" style="background-image: url('{{asset('P2IOS/main.jpeg')}}')">
 
             <div class="container">
               <h3 style="display-4: inline-block;"></h3>
@@ -165,7 +165,7 @@
 
       <!--Book Table-->
       <div class="col-lg-6 col-md-10 mx-auto">
-        <div class="jumbotron jumbotron-fluid" style="background-image: url('{{asset('P3IOS/main.jpeg')}}')">
+        <div class="jumbotron text-white jumbotron-image shadow" style="background-image: url('{{asset('P3IOS/main.jpeg')}}')">
 
             <div class="container">
               <h3 style="display-4: inline-block;"></h3>
@@ -250,7 +250,7 @@
           </div>
           </div>
 
-          <div class="jumbotron jumbotron-fluid" style="background-image: url('{{asset('P4IOS/main.jpeg')}}')">
+          <div class="jumbotron text-white jumbotron-image shadow" style="background-image: url('{{asset('P4IOS/main.jpeg')}}')">
 
               <div class="container">
                 <h3 style="display-4: inline-block;"></h3>

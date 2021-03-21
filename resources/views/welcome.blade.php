@@ -13,7 +13,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-color: #aaa;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -93,26 +93,6 @@
 
        </div>
   </div>
-    <div class="title m-b-md">
-      ​<picture>
-<source srcset="{{asset('image/ki.jpg')}}" type="image/svg+xml">
-<img src="{{asset('image/ki.jpg')}}" class="img-fluid img-thumbnail" alt="...">
-</picture>
-    </div>
-
-                <div class="title m-b-md">
-                  Anything
-                </div>
-
-                <div class="links">
-
-                    <a href="http://127.0.0.1:8000/flight">Flight</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
 
             </div>
         </div>

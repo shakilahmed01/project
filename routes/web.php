@@ -49,3 +49,4 @@ Route::get('/conferences/create', [App\Http\Controllers\ConferenceController::cl
 Route::get('/jumbortan', [App\Http\Controllers\ConferenceController::class, 'jumbortan'])->name('jumbortan');
 Route::get('/peraa', [App\Http\Controllers\ConferenceController::class, 'peraa'])->name('peraa');
 Route::get('/relux', [App\Http\Controllers\ConferenceController::class, 'relux'])->name('relux');
+Route::get('/deep', [App\Http\Controllers\ConferenceController::class, 'deep'])->name('deep');
