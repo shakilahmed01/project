@@ -22,7 +22,7 @@
 h1.heading1 { font-size: 36px; font-weight: 800; text-align: center; margin-top: 40px; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);}
 .jumbotron { margin-top: 50px; margin-bottom: 50px; box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.5);}
 .jumbotron p { font-size: 16px; color: #373737; line-height: 1.6;}
-.jumbotron h1 { color: #808080; font-weight: 800;}
+.jumbotron h1 { color: #FFFAF0; font-weight: 800;}
 .jumbotron .btn { background-color: #4682B4; border: none;}
 .jumbotron .btn:hover, .jumbotron .btn:focus, .jumbotron .btn.active { background-color: #2F4F4F;}
 .moving-wave { position: relative; display: inline-block; width: 100%; height: 10px; top: -5px;}
@@ -62,10 +62,71 @@ h1.heading1 { font-size: 36px; font-weight: 800; text-align: center; margin-top:
 <div class="container">
   <div class="row">
 
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" style="background-image: url('{{asset('image/amz5.jpg')}}')">
       <div class="container">
-        <h1 class="display-4">Our Amazing Works</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+
+        <h1 class="display-1">Our Amazing Works</h1>
+        <p class="lead">.....</p>
+        <!DOCTYPE html>
+      <html>
+      <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+      .button {
+        border-radius: 4px;
+        background-color: #6495ED;
+        border: none;
+        color: #ffff;
+        text-align: center;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+
+      .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+
+      .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+
+      .button:hover span {
+        padding-right: 25px;
+      }
+
+      .button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+
+      </style>
+      </head>
+      <body>
+
+      <h2></h2>
+
+      <button class="button"><span>Web system </span></button>
+      <button class="button"><span>Mobile App </span></button>
+      <button class="button"><span>eCommerce </span></button>
+      <button class="button"><span>Game Development </span></button>
+      <button class="button"><span>Graphics & Animation </span></button>
+      <button class="button"><span>AR/VR </span></button>
+      <button class="button"><span>Social site Management </span></button>
+
+      </body>
+      </html>
       </div>
     </div>
 
