@@ -9,7 +9,21 @@
          .bs-example{
              margin: 20px;
          }
+         body { width: 100%; margin: 0; padding: 0; overflow-x: hidden; background: #FD7F64; color: #F8F8FF;}
+         h1.heading1 { font-size: 36px; font-weight: 800; text-align: center; margin-top: 40px; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);}
 
+         .jumbotron p { font-size: 16px; color: #373737; line-height: 1.6;}
+         .jumbotron h1 { color: #FFFAF0; font-weight: 800;}
+         .jumbotron .btn { background-color: #4682B4; border: none;}
+         .jumbotron .btn:hover,
+         .jumbotron .btn:focus,
+         .jumbotron .btn.active { background-color: #2F4F4F;}
+         .jumbotron .bg-overlay {
+                    background: rgba(0,0,0,0);
+         }
+         .jumbotron:hover .bg-overlay {
+             background: rgba(0,0,0,0.5);
+         }
          .jumbotron {
              background-image: url();
              background-size: cover;
@@ -17,15 +31,19 @@
              -moz-background-size: 100% 100%;
              -o-background-size: 100% 100%;
              background-size: 100% 100%;
-         }
+             margin-top: 50px;
+             margin-bottom: 50px;
+             box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.5);
 
-         body { width: 100%; margin: 0; padding: 0; overflow-x: hidden; background: #FD7F64; color: #F8F8FF;}
-      h1.heading1 { font-size: 36px; font-weight: 800; text-align: center; margin-top: 40px; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);}
-      .jumbotron { margin-top: 50px; margin-bottom: 50px; box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.5);}
-      .jumbotron p { font-size: 16px; color: #373737; line-height: 1.6;}
-      .jumbotron h1 { color: #FFFAF0; font-weight: 800;}
-      .jumbotron .btn { background-color: #4682B4; border: none;}
-      .jumbotron .btn:hover, .jumbotron .btn:focus, .jumbotron .btn.active { background-color: #2F4F4F;}
+         }
+         .animated {
+       -webkit-transition: all 1s ease;
+       -o-transition: all 1s ease;
+       transition: all 1s ease;
+   }
+
+
+
 
 
 
@@ -41,6 +59,7 @@
 
 
       <div class="jumbotron jumbotron-fluid" style="background-image: url('{{asset('image/amz6.jpg')}}')">
+        <div class="bg-overlay animated">
         <div class="container">
 
           <h1 class="display-1">Knights </h1>
@@ -107,10 +126,11 @@
 
         </div>
       </div>
+      </div>
 
 
 
-      <div class="content">
+
 
       <div class="container">
         <div class="row">
@@ -120,6 +140,7 @@
 
 
             <div class="jumbotron rounded" style="background-image: url('{{asset('Products IOS/P1 IOS/IOS P1.jpeg')}}')">
+                <div class="bg-overlay animated">
                 <div class="container">
                   <h3 style="display-4: inline-block;">|  Desk |</h3>
               <div class="add-table">
@@ -229,14 +250,17 @@
               <hr>
               </div>
             </div>
+              </div>
 
           </div>
+
 
           <!--Service Table-->
 
           <div class="col-lg-4 col-md-10 mx-auto">
 
             <div class="jumbotron rounded" style="background-image: url('{{asset('image/black 2.jpg')}}')" >
+                <div class="bg-overlay animated">
                 <div class="container">
                   <h3 style="display-4: inline-block;">| Mobile photo Desk |</h3>
               <div class="add-table">
@@ -326,7 +350,7 @@
               <hr>
               </div>
             </div>
-
+          </div>
           </div>
 
 
@@ -336,6 +360,7 @@
 
 
             <div class="jumbotron rounded" style="background-image: url('{{asset('image/black 2.jpg')}}')" >
+                <div class="bg-overlay animated">
                 <div class="container">
                   <h3 style="display-4: inline-block;">| Mobile photo Desk |</h3>
               <div class="add-table">
@@ -409,10 +434,12 @@
               </div>
             </div>
           </div>
+          </div>
 
           <!--Book Table-->
           <div class="col-lg-6 col-md-10 mx-auto">
             <div class="jumbotron rounded" style="background-image: url('{{asset('Products IOS/P2 IOS/IOS P2.jpeg')}}')">
+                <div class="bg-overlay animated">
                 <div class="container">
                   <h3 style="display-4: inline-block;">|  Desk |</h3>
               <div class="add-table">
@@ -511,7 +538,7 @@
               <hr>
               </div>
             </div>
-
+          </div>
           </div>
 
           <!--Book Table-->
@@ -519,6 +546,7 @@
 
 
             <div class="jumbotron rounded" style="background-image: url('{{asset('Products IOS/P3 IOS/IOS P3.jpeg')}}')">
+                <div class="bg-overlay animated">
                 <div class="container">
                   <h3 style="display-4: inline-block;">|  Desk |</h3>
               <div class="add-table">
@@ -609,11 +637,13 @@
               </div>
             </div>
           </div>
+          </div>
 
           <!--Service Table-->
 
           <div class="col-lg-4 col-md-10 mx-auto">
             <div class="jumbotron rounded" style="background-image: url('{{asset('image/black 2.jpg')}}')" >
+                <div class="bg-overlay animated">
                 <div class="container">
                   <h3 style="display-4: inline-block;">| Mobile photo Desk |</h3>
               <div class="add-table">
@@ -686,7 +716,7 @@
               <hr>
               </div>
             </div>
-
+          </div>
           </div>
 
 
@@ -695,6 +725,7 @@
           <div class="col-lg-4 col-md-10 mx-auto">
 
             <div class="jumbotron rounded" style="background-image: url('{{asset('image/black 2.jpg')}}')" >
+                <div class="bg-overlay animated">
                 <div class="container">
                   <h3 style="display-4: inline-block;">| Mobile photo Desk |</h3>
               <div class="add-table">
@@ -768,10 +799,12 @@
               </div>
             </div>
           </div>
+          </div>
 
           <!--Book Table-->
           <div class="col-lg-6 col-md-10 mx-auto">
             <div class="jumbotron rounded" style="background-image: url('{{asset('Products IOS/P4 IOS/IOS P4.jpeg')}}')">
+                <div class="bg-overlay animated">
                 <div class="container">
                   <h3 style="display-4: inline-block;">|  Desk |</h3>
               <div class="add-table">
@@ -850,8 +883,7 @@
               <hr>
               </div>
             </div>
-
-
+          </div>
           </div>
 
 
@@ -860,6 +892,7 @@
 
 
             <div class="jumbotron rounded" style="background-image: url('{{asset('Products IOS/P5 IOS/IOS P5.jpeg')}}')">
+                <div class="bg-overlay animated">
                 <div class="container">
                   <h3 style="display-4: inline-block;">|  Desk |</h3>
               <div class="add-table">
@@ -939,11 +972,13 @@
               </div>
             </div>
           </div>
+          </div>
 
           <!--Service Table-->
 
           <div class="col-lg-4 col-md-10 mx-auto">
             <div class="jumbotron rounded" style="background-image: url('{{asset('image/black 2.jpg')}}')" >
+                <div class="bg-overlay animated">
                 <div class="container">
                   <h3 style="display-4: inline-block;">| Mobile photo Desk |</h3>
               <div class="add-table">
@@ -1016,9 +1051,7 @@
               <hr>
               </div>
             </div>
-
-
-
+          </div>
           </div>
 
 
@@ -1028,6 +1061,7 @@
 
 
             <div class="jumbotron rounded" style="background-image: url('{{asset('image/black 2.jpg')}}')" >
+                <div class="bg-overlay animated">
                 <div class="container">
                   <h3 style="display-4: inline-block;">| Mobile photo Desk |</h3>
               <div class="add-table">
@@ -1101,10 +1135,12 @@
               </div>
             </div>
           </div>
+          </div>
 
           <!--Book Table-->
           <div class="col-lg-6 col-md-10 mx-auto">
             <div class="jumbotron rounded" style="background-image: url('{{asset('Products IOS/P6 IOS/IOS P6.jpeg')}}')">
+                <div class="bg-overlay animated">
                 <div class="container">
                   <h3 style="display-4: inline-block;">|  Desk |</h3>
               <div class="add-table">
@@ -1183,9 +1219,7 @@
               <hr>
               </div>
             </div>
-
-
-
+          </div>
           </div>
 
 
@@ -1195,6 +1229,7 @@
 
 
             <div class="jumbotron rounded" style="background-image: url('{{asset('Products IOS/P7 IOS/IOS P7.jpeg')}}')">
+                <div class="bg-overlay animated">
                 <div class="container">
                   <h3 style="display-4: inline-block;">|  Desk |</h3>
               <div class="add-table">
@@ -1274,11 +1309,13 @@
               </div>
             </div>
           </div>
+          </div>
 
           <!--Service Table-->
 
           <div class="col-lg-4 col-md-10 mx-auto">
             <div class="jumbotron rounded" style="background-image: url('{{asset('image/black 2.jpg')}}')" >
+                <div class="bg-overlay animated">
                 <div class="container">
                   <h3 style="display-4: inline-block;">| Mobile photo Desk |</h3>
               <div class="add-table">
@@ -1351,9 +1388,7 @@
               <hr>
               </div>
             </div>
-
-
-
+          </div>
           </div>
 
 
@@ -1363,6 +1398,7 @@
 
 
             <div class="jumbotron rounded" style="background-image: url('{{asset('image/black 2.jpg')}}')" >
+                <div class="bg-overlay animated">
                 <div class="container">
                   <h3 style="display-4: inline-block;">| Mobile photo Desk |</h3>
               <div class="add-table">
@@ -1436,10 +1472,12 @@
               </div>
             </div>
           </div>
+          </div>
 
           <!--Book Table-->
           <div class="col-lg-6 col-md-10 mx-auto">
             <div class="jumbotron rounded" style="background-image: url('{{asset('Products IOS/P8 IOS/IOS P8.jpeg')}}')">
+                <div class="bg-overlay animated">
                 <div class="container">
                   <h3 style="display-4: inline-block;">|  Desk |</h3>
               <div class="add-table">
@@ -1518,8 +1556,7 @@
               <hr>
               </div>
             </div>
-
-
+          </div>
           </div>
 
 
@@ -1528,6 +1565,7 @@
 
 
             <div class="jumbotron rounded" style="background-image: url('{{asset('Products IOS/P9 IOS/IOS P9.jpeg')}}')">
+                <div class="bg-overlay animated">
                 <div class="container">
                   <h3 style="display-4: inline-block;">|  Desk |</h3>
               <div class="add-table">
@@ -1607,11 +1645,13 @@
               </div>
             </div>
           </div>
+          </div>
 
           <!--Service Table-->
 
           <div class="col-lg-4 col-md-10 mx-auto">
             <div class="jumbotron rounded" style="background-image: url('{{asset('image/black 2.jpg')}}')" >
+                <div class="bg-overlay animated">
                 <div class="container">
                   <h3 style="display-4: inline-block;">| Mobile photo Desk |</h3>
               <div class="add-table">
@@ -1684,9 +1724,7 @@
               <hr>
               </div>
             </div>
-
-
-
+          </div>
           </div>
 
 
@@ -1697,6 +1735,7 @@
 
 
             <div class="jumbotron rounded" style="background-image: url('{{asset('image/black 2.jpg')}}')" >
+                <div class="bg-overlay animated">
                 <div class="container">
                   <h3 style="display-4: inline-block;">| Mobile photo Desk |</h3>
               <div class="add-table">
@@ -1770,10 +1809,12 @@
               </div>
             </div>
           </div>
+          </div>
 
           <!--Book Table-->
           <div class="col-lg-6 col-md-10 mx-auto">
             <div class="jumbotron rounded" style="background-image: url('{{asset('Products IOS/P10 IOS/IOS P10.jpeg')}}')">
+                <div class="bg-overlay animated">
                 <div class="container">
                   <h3 style="display-4: inline-block;">|  Desk |</h3>
               <div class="add-table">
@@ -1852,7 +1893,7 @@
               <hr>
               </div>
             </div>
-
+          </div>
           </div>
 
 
@@ -1864,6 +1905,7 @@
 
 
             <div class="jumbotron rounded" style="background-image: url('{{asset('Products IOS/P11 IOS/IOS P11.jpeg')}}')">
+                <div class="bg-overlay animated">
                 <div class="container">
                   <h3 style="display-4: inline-block;">|  Desk |</h3>
               <div class="add-table">
@@ -1941,11 +1983,13 @@
               </div>
             </div>
           </div>
+          </div>
 
           <!--Service Table-->
 
           <div class="col-lg-4 col-md-10 mx-auto">
             <div class="jumbotron rounded" style="background-image: url('{{asset('image/black 2.jpg')}}')" >
+                <div class="bg-overlay animated">
                 <div class="container">
                   <h3 style="display-4: inline-block;">| Mobile photo Desk |</h3>
               <div class="add-table">
@@ -2018,9 +2062,7 @@
               <hr>
               </div>
             </div>
-
-
-
+          </div>
           </div>
 
 
@@ -2034,7 +2076,7 @@
       </div>
 
 
-                </div>
+
 
 
 
