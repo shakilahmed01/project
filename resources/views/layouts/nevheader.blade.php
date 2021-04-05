@@ -10,7 +10,7 @@
 
 
     <title > Tech Knight Solution </title>
-    <link rel="icon" type="image/ico" href="images/favi.ico"/>
+     <link rel="shortcut icon" type="image/gif" href="{{ URL::to('image/favicon.gif') }}"/>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
@@ -93,7 +93,7 @@
             <style>
             .button {
               border-radius: 4px;
-              background-color: #6495ED;
+              background-color: #809FBF;
               border: none;
               color: #ffff;
               text-align: center;
@@ -241,10 +241,7 @@
             </li>
 
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+
         </div>
       </div>
 
@@ -272,7 +269,7 @@
       <h1><a href="#">Service Consulting</a></h1>
       <h1><a href="#">Agent eKnight</a></h1>
       <h1><a href="#">Contact Knight</a></h1>
-      
+
 
 
     </div>

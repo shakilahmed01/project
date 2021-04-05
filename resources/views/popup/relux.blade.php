@@ -1,5 +1,6 @@
 @include('layouts.nevheader')
-
+@extends("layouts.app")
+@section('content')
     <div class="content">
 
 
@@ -14,15 +15,18 @@
 
          .jumbotron p { font-size: 16px; color: #373737; line-height: 1.6;}
          .jumbotron h1 { color: #FFFAF0; font-weight: 800;}
-         .jumbotron .btn { background-color: #4682B4; border: none;}
+         .jumbotron .btn { background-color: #B22222; border: none;}
          .jumbotron .btn:hover,
          .jumbotron .btn:focus,
          .jumbotron .btn.active { background-color: #2F4F4F;}
          .jumbotron .bg-overlay {
                     background: rgba(0,0,0,0);
          }
-         .jumbotron:hover .bg-overlay {
+         .jumbotron .bg-overlay {
              background: rgba(0,0,0,0.5);
+         }
+         .jumbotron:hover .bg-overlay {
+             background: rgba(255, 99, 71, 0);
          }
          .jumbotron {
              background-image: url();
@@ -31,8 +35,10 @@
              -moz-background-size: 100% 100%;
              -o-background-size: 100% 100%;
              background-size: 100% 100%;
-             margin-top: 50px;
-             margin-bottom: 50px;
+             margin-top: 30px;
+             margin-bottom: 30px;
+             margin-right: 00px;
+             margin-left: 00px;
              box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.5);
 
          }
@@ -66,63 +72,16 @@
           <br>
           <h1 class="display-1">Amazing Works</h1>
 
-          <p class="lead">.....</p>
 
-        <style>
-        .button {
-          border-radius: 4px;
-          background-color: #6495ED;
-          border: none;
-          color: #ffff;
-          text-align: center;
-          font-size: 15px;
-          padding: 10px;
-          width: 300px;
-          transition: all 0.5s;
-          cursor: pointer;
-          margin: 5px;
-        }
+        <button type="button" class="btn btn-danger">Web system </button>
+        <button type="button" class="btn btn-danger">Mobile App </button>
+        <button type="button" class="btn btn-danger">eCommerce </button>
+        <button type="button" class="btn btn-danger">Game Development </button>
+        <button type="button" class="btn btn-danger">Graphics & Animation </button>
+        <button type="button" class="btn btn-danger">AR/VR </button>
+        <button type="button" class="btn btn-danger">Social site Management </button>
 
-        .button span {
-          cursor: pointer;
-          display: inline-block;
-          position: relative;
-          transition: 0.5s;
-        }
 
-        .button span:after {
-          content: '\00bb';
-          position: absolute;
-          opacity: 0;
-          top: 0;
-          right: -20px;
-          transition: 0.5s;
-        }
-
-        .button:hover span {
-          padding-right: 25px;
-        }
-
-        .button:hover span:after {
-          opacity: 1;
-          right: 0;
-        }
-
-        </style>
-
-        <body>
-
-        <h2></h2>
-
-        <button class="button"><span>Web system </span></button>
-        <button class="button"><span>Mobile App </span></button>
-        <button class="button"><span>eCommerce </span></button>
-        <button class="button"><span>Game Development </span></button>
-        <button class="button"><span>Graphics & Animation </span></button>
-        <button class="button"><span>AR/VR </span></button>
-        <button class="button"><span>Social site Management </span></button>
-
-        </body>
 
         </div>
       </div>
@@ -136,7 +95,7 @@
         <div class="row">
 
           <!--Book Table-->
-          <div class="col-lg-6 col-md- mx-auto">
+          <div class="col-xs-9 col-md-7">
 
 
             <div class="jumbotron rounded" style="background-image: url('{{asset('Products IOS/P1 IOS/IOS P1.jpeg')}}')">
@@ -257,7 +216,7 @@
 
           <!--Service Table-->
 
-          <div class="col-lg-4 col-md-10 mx-auto">
+          <div class="col-xs-3 col-md-5">
 
             <div class="jumbotron rounded" style="background-image: url('{{asset('image/black 2.jpg')}}')" >
                 <div class="bg-overlay animated">
@@ -356,7 +315,7 @@
 
           <!--Service Table-->
 
-          <div class="col-lg-4 col-md-10 mx-auto">
+          <div class="col-xs-3 col-md-5">
 
 
             <div class="jumbotron rounded" style="background-image: url('{{asset('image/black 2.jpg')}}')" >
@@ -437,7 +396,7 @@
           </div>
 
           <!--Book Table-->
-          <div class="col-lg-6 col-md-10 mx-auto">
+          <div class="col-xs-9 col-md-7">
             <div class="jumbotron rounded" style="background-image: url('{{asset('Products IOS/P2 IOS/IOS P2.jpeg')}}')">
                 <div class="bg-overlay animated">
                 <div class="container">
@@ -542,7 +501,7 @@
           </div>
 
           <!--Book Table-->
-          <div class="col-lg-6 col-md-10 mx-auto">
+          <div class="col-xs-9 col-md-7">
 
 
             <div class="jumbotron rounded" style="background-image: url('{{asset('Products IOS/P3 IOS/IOS P3.jpeg')}}')">
@@ -641,7 +600,7 @@
 
           <!--Service Table-->
 
-          <div class="col-lg-4 col-md-10 mx-auto">
+          <div class="col-xs-3 col-md-5">
             <div class="jumbotron rounded" style="background-image: url('{{asset('image/black 2.jpg')}}')" >
                 <div class="bg-overlay animated">
                 <div class="container">
@@ -722,7 +681,7 @@
 
           <!--Service Table-->
 
-          <div class="col-lg-4 col-md-10 mx-auto">
+          <div class="col-xs-3 col-md-5">
 
             <div class="jumbotron rounded" style="background-image: url('{{asset('image/black 2.jpg')}}')" >
                 <div class="bg-overlay animated">
@@ -802,7 +761,7 @@
           </div>
 
           <!--Book Table-->
-          <div class="col-lg-6 col-md-10 mx-auto">
+          <div class="col-xs-9 col-md-7">
             <div class="jumbotron rounded" style="background-image: url('{{asset('Products IOS/P4 IOS/IOS P4.jpeg')}}')">
                 <div class="bg-overlay animated">
                 <div class="container">
@@ -888,7 +847,7 @@
 
 
           <!--Book Table-->
-          <div class="col-lg-6 col-md-10 mx-auto">
+          <div class="col-xs-9 col-md-7">
 
 
             <div class="jumbotron rounded" style="background-image: url('{{asset('Products IOS/P5 IOS/IOS P5.jpeg')}}')">
@@ -976,7 +935,7 @@
 
           <!--Service Table-->
 
-          <div class="col-lg-4 col-md-10 mx-auto">
+          <div class="col-xs-3 col-md-5">
             <div class="jumbotron rounded" style="background-image: url('{{asset('image/black 2.jpg')}}')" >
                 <div class="bg-overlay animated">
                 <div class="container">
@@ -1057,7 +1016,7 @@
 
           <!--Service Table-->
 
-          <div class="col-lg-4 col-md-10 mx-auto">
+          <div class="col-xs-3 col-md-5">
 
 
             <div class="jumbotron rounded" style="background-image: url('{{asset('image/black 2.jpg')}}')" >
@@ -1138,7 +1097,7 @@
           </div>
 
           <!--Book Table-->
-          <div class="col-lg-6 col-md-10 mx-auto">
+          <div class="col-xs-9 col-md-7">
             <div class="jumbotron rounded" style="background-image: url('{{asset('Products IOS/P6 IOS/IOS P6.jpeg')}}')">
                 <div class="bg-overlay animated">
                 <div class="container">
@@ -1224,7 +1183,7 @@
 
 
           <!--Book Table-->
-          <div class="col-lg-6 col-md-10 mx-auto">
+          <div class="col-xs-9 col-md-7">
 
 
 
@@ -1313,7 +1272,7 @@
 
           <!--Service Table-->
 
-          <div class="col-lg-4 col-md-10 mx-auto">
+          <div class="col-xs-3 col-md-5">
             <div class="jumbotron rounded" style="background-image: url('{{asset('image/black 2.jpg')}}')" >
                 <div class="bg-overlay animated">
                 <div class="container">
@@ -1394,7 +1353,7 @@
 
           <!--Service Table-->
 
-          <div class="col-lg-4 col-md-10 mx-auto">
+          <div class="col-xs-3 col-md-5">
 
 
             <div class="jumbotron rounded" style="background-image: url('{{asset('image/black 2.jpg')}}')" >
@@ -1475,7 +1434,7 @@
           </div>
 
           <!--Book Table-->
-          <div class="col-lg-6 col-md-10 mx-auto">
+          <div class="col-xs-9 col-md-7">
             <div class="jumbotron rounded" style="background-image: url('{{asset('Products IOS/P8 IOS/IOS P8.jpeg')}}')">
                 <div class="bg-overlay animated">
                 <div class="container">
@@ -1561,7 +1520,7 @@
 
 
           <!--Book Table-->
-          <div class="col-lg-6 col-md-10 mx-auto">
+          <div class="col-xs-9 col-md-7">
 
 
             <div class="jumbotron rounded" style="background-image: url('{{asset('Products IOS/P9 IOS/IOS P9.jpeg')}}')">
@@ -1649,7 +1608,7 @@
 
           <!--Service Table-->
 
-          <div class="col-lg-4 col-md-10 mx-auto">
+          <div class="col-xs-3 col-md-5">
             <div class="jumbotron rounded" style="background-image: url('{{asset('image/black 2.jpg')}}')" >
                 <div class="bg-overlay animated">
                 <div class="container">
@@ -1730,7 +1689,7 @@
 
           <!--Service Table-->
 
-          <div class="col-lg-4 col-md-10 mx-auto">
+          <div class="col-xs-3 col-md-5">
 
 
 
@@ -1812,7 +1771,7 @@
           </div>
 
           <!--Book Table-->
-          <div class="col-lg-6 col-md-10 mx-auto">
+          <div class="col-xs-9 col-md-7">
             <div class="jumbotron rounded" style="background-image: url('{{asset('Products IOS/P10 IOS/IOS P10.jpeg')}}')">
                 <div class="bg-overlay animated">
                 <div class="container">
@@ -1899,7 +1858,7 @@
 
 
           <!--Book Table-->
-          <div class="col-lg-6 col-md-10 mx-auto">
+          <div class="col-xs-9 col-md-7">
 
 
 
@@ -1987,7 +1946,7 @@
 
           <!--Service Table-->
 
-          <div class="col-lg-4 col-md-10 mx-auto">
+          <div class="col-xs-3 col-md-5">
             <div class="jumbotron rounded" style="background-image: url('{{asset('image/black 2.jpg')}}')" >
                 <div class="bg-overlay animated">
                 <div class="container">
@@ -2081,4 +2040,6 @@
 
 
 </html>
+
 @include('layouts.footer')
+@endsection
