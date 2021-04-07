@@ -62,6 +62,20 @@
 
   </style>
 
+  <h3 style="background-color:black;">
+  <div class="container">
+
+    <span style="color: #b2b2b2; "> <p class="fs-6">Beta Version | update is on progress </p> </span>
+
+  </div>
+  </h3>
+
+  <h3 style="background-color:Gray;">
+  <div class="container">
+      <span style="color: #b2b2b2; "> <p class="fs-6">Beta Version | update is on progress </p> </span>
+  </div>
+  </h3>
+
 
 <div class="header" id="myHeader">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -81,25 +95,25 @@
   border-radius: 0%; /* makes it a circle */
 }
 </style>
-
+       <div class="navbar-nav me-auto col-xs-5 col-sm-6 col-lg-4">
         <a href="#"><img id="logo" src="image/logo.png"></a>
+      </div>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+
+
+          <ul class="navbar-nav me-auto col-xs-7 col-sm-6 col-lg-8" >
 
             <style>
             .button {
               border-radius: 4px;
               background-color: #809FBF;
               border: none;
-              color: #ffff;
+              color: #000000;
               text-align: center;
               font-size: 15px;
               padding: 10px;
               width: 300px;
+              font-weight: bold;
               transition: all 0.5s;
               cursor: pointer;
               margin: 5px;
@@ -113,7 +127,9 @@
             }
 
             .button span:after {
+
               content: '\00bb';
+              color: #ffff;
               position: absolute;
               opacity: 0;
               top: 0;
@@ -122,12 +138,15 @@
             }
 
             .button:hover span {
+              color: #ffff;
               padding-right: 25px;
             }
 
             .button:hover span:after {
+
               opacity: 1;
               right: 0;
+
             }
 
             </style>
@@ -247,9 +266,6 @@
 
     </nav>
 
-
-
-  </body>
     <div class="collapse" id="navbarToggleExternalContent">
 
     <div class="bg-dark p-4">
@@ -283,7 +299,10 @@
     </div>
 
   </nav>
-</div>
+
+  </body>
+
+
 
 
 

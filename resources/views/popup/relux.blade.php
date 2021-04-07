@@ -15,10 +15,10 @@
 
          .jumbotron p { font-size: 16px; color: #373737; line-height: 1.6;}
          .jumbotron h1 { color: #FFFAF0; font-weight: 800;}
-         .jumbotron .btn { background-color: #B22222; border: none;}
+         .jumbotron .btn { background-color: #191F35; border: none;}
          .jumbotron .btn:hover,
          .jumbotron .btn:focus,
-         .jumbotron .btn.active { background-color: #2F4F4F;}
+         .jumbotron .btn.active { background-color: #809FBF;}
          .jumbotron .bg-overlay {
                     background: rgba(0,0,0,0);
          }
@@ -43,10 +43,10 @@
 
          }
          .animated {
-       -webkit-transition: all 1s ease;
-       -o-transition: all 1s ease;
-       transition: all 1s ease;
-   }
+            -webkit-transition: all 1s ease;
+            -o-transition: all 1s ease;
+            transition: all 1s ease;
+         }
 
 
 
@@ -71,6 +71,8 @@
           <h1 class="display-1">Knights </h1>
           <br>
           <h1 class="display-1">Amazing Works</h1>
+
+
 
 
         <button type="button" class="btn btn-danger">Web system </button>

@@ -1,6 +1,4 @@
-<nav class="navbar navbar-dark bg-dark">
-<h1>
-  <div class="container">
+
     <!DOCTYPE html>
     <html>
     <head>
@@ -10,15 +8,26 @@
       grid-template-columns: auto auto auto auto;
       grid-gap: 10px;
       background-color: #F5FFFA;
+      color:white;
       padding: 10px;
     }
 
-    .grid-container > div {
-      background-color: rgb(0, 0, 0);
+    .grid-container  div {
+      background-color: rgb(32,32,32);
       border: 1px solid black;
       text-align: center;
       font-size: 15px;
     }
+    .item{
+      color:white;
+    }
+    .item:hover{
+      color:#809FBF;
+    }
+    .blank{
+      color:rgb(32,32,32);
+    }
+
     </style>
     </head>
 
@@ -31,9 +40,12 @@
       <div class="container">
         <h3>Discover Us</h3>
 
+        <br>
+        <br>
+
         <li><a class="item" href="#">Home</a></li>
         <li><a class="item" href="#">Company</a></li>
-        <li><a class="item" href="#">Our Works</a></li>
+        <li><a class="item" href="{{Route('relux')}}">Our Works</a></li>
         <li><a class="item" href="#">process</a></li>
         <li><a class="item" href="#">Career</a></li>
         <li><a class="item" href="#">blog</a></li>
@@ -94,12 +106,12 @@ color: white;
      <h3>World Wide Station</h3>
 
      <hr>
-    <a href="#">| USA |</a>
-    <a href="#">| DUBAI |</a>
+    <a class="item" href="#">| USA |</a>
+    <a class="item" href="#">| DUBAI |</a>
     <hr>
-    <a href="#">| SYDNEY |</a>
-    <a href="#" >| UK |</a>
-    <a href="#">| MELBOURN |</a>
+    <a class="item" href="#">| SYDNEY |</a>
+    <a class="item" href="#" >| UK |</a>
+    <a class="item" href="#">| MELBOURN |</a>
     <hr>
 
 
@@ -113,6 +125,9 @@ color: white;
       </div>
       <div class="container">
         <h3>Product & Service</h3>
+
+        <br>
+        <br>
 
         <li><a class="item" href="#">Web Development</a></li>
         <li><a class="item" href="#">Mobile App Development</a></li>
@@ -130,8 +145,18 @@ color: white;
 
       </div>
 
+      <div class="blank">
+        <h3>..............................................</h3>
+      </div>
+
       <div class="container">
         <h3>Tech Knowledge Management</h3>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
         <div class="w3-container w3-center ">
           <h3>Subscribe Special NewsLetters</h3>
           <h4>Latest tech news and tech information updates</h4>
@@ -142,8 +167,8 @@ color: white;
           </form>
 
           <hr>
-         <a href="#">| Terms Of Service |</a>
-         <a href="#">| Privacy Policy |</a>
+         <a class="item" href="#">| Terms Of Service |</a>
+         <a class="item" href="#">| Privacy Policy |</a>
          <hr>
 
 
@@ -158,12 +183,36 @@ color: white;
 
     </html>
 
-</div>
+<h3 style="background-color:black;">
 <div class="container">
 <a href="https://techknightsolutions.com/" rel="nofollow noopener" target="_blank">
   <span style="color: #b2b2b2; "> <p class="fs-6">Copyright ©   TECH KNIGHT SOLUTIONS 2021 | <br>All Rights Reserved </p> </span>
 </a>
 </div>
-</h1>
+</h3>
 
-</nav>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #002242;
+   color: white;
+   text-align: center;
+}
+</style>
+</head>
+<body>
+
+
+<div class="footer">
+  <p>Lets Talk +880 1552 375 890 | <a class="item" href="info@techknightsolutions.com">info@techknightsolutions.com</a> </p>
+</div>
+
+</body>
+</html>
