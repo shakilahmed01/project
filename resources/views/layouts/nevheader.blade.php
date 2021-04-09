@@ -61,18 +61,107 @@
   }
 
   </style>
+  <style>
+  .shakil2{
+    background-color:#191F35;
+  }
+  </style>
 
-  <h3 style="background-color:black;">
-  <div class="container">
+  <h3 >
 
-    <span style="color: #b2b2b2; "> <p class="fs-6">Beta Version | update is on progress </p> </span>
+  <div class="shakil2">
+
+    <span > <p class="fs-6">Beta Version | update is on progress </p>
+       <p class="fs-6"><select data-placeholder="Choose a Language...">
+  <option value="AF">English</option>
+  <option value="SQ">Albanian</option>
+  <option value="AR">Arabic</option>
+  <option value="HY">Armenian</option>
+  <option value="EU">Basque</option>
+  <option value="BN">Bengali</option>
+  <option value="BG">Bulgarian</option>
+  <option value="CA">Catalan</option>
+  <option value="KM">Cambodian</option>
+  <option value="ZH">Chinese (Mandarin)</option>
+  <option value="HR">Croatian</option>
+  <option value="CS">Czech</option>
+  <option value="DA">Danish</option>
+  <option value="NL">Dutch</option>
+  <option value="EN">Afrikaans</option>
+  <option value="ET">Estonian</option>
+  <option value="FJ">Fiji</option>
+  <option value="FI">Finnish</option>
+  <option value="FR">French</option>
+  <option value="KA">Georgian</option>
+  <option value="DE">German</option>
+  <option value="EL">Greek</option>
+  <option value="GU">Gujarati</option>
+  <option value="HE">Hebrew</option>
+  <option value="HI">Hindi</option>
+  <option value="HU">Hungarian</option>
+  <option value="IS">Icelandic</option>
+  <option value="ID">Indonesian</option>
+  <option value="GA">Irish</option>
+  <option value="IT">Italian</option>
+  <option value="JA">Japanese</option>
+  <option value="JW">Javanese</option>
+  <option value="KO">Korean</option>
+  <option value="LA">Latin</option>
+  <option value="LV">Latvian</option>
+  <option value="LT">Lithuanian</option>
+  <option value="MK">Macedonian</option>
+  <option value="MS">Malay</option>
+  <option value="ML">Malayalam</option>
+  <option value="MT">Maltese</option>
+  <option value="MI">Maori</option>
+  <option value="MR">Marathi</option>
+  <option value="MN">Mongolian</option>
+  <option value="NE">Nepali</option>
+  <option value="NO">Norwegian</option>
+  <option value="FA">Persian</option>
+  <option value="PL">Polish</option>
+  <option value="PT">Portuguese</option>
+  <option value="PA">Punjabi</option>
+  <option value="QU">Quechua</option>
+  <option value="RO">Romanian</option>
+  <option value="RU">Russian</option>
+  <option value="SM">Samoan</option>
+  <option value="SR">Serbian</option>
+  <option value="SK">Slovak</option>
+  <option value="SL">Slovenian</option>
+  <option value="ES">Spanish</option>
+  <option value="SW">Swahili</option>
+  <option value="SV">Swedish </option>
+  <option value="TA">Tamil</option>
+  <option value="TT">Tatar</option>
+  <option value="TE">Telugu</option>
+  <option value="TH">Thai</option>
+  <option value="BO">Tibetan</option>
+  <option value="TO">Tonga</option>
+  <option value="TR">Turkish</option>
+  <option value="UK">Ukrainian</option>
+  <option value="UR">Urdu</option>
+  <option value="UZ">Uzbek</option>
+  <option value="VI">Vietnamese</option>
+  <option value="CY">Welsh</option>
+  <option value="XH">Xhosa</option>
+</select></p>
+     </span>
 
   </div>
-  </h3>
 
-  <h3 style="background-color:Gray;">
-  <div class="container">
-      <span style="color: #b2b2b2; "> <p class="fs-6">Beta Version | update is on progress </p> </span>
+
+  <style>
+  .shakil{
+    background-color:rgb(32,32,32);
+    color:rgb(32,32,32);
+  }
+  </style>
+
+
+  <div class="shakil">
+      <span  > <p class="fs-6">................ </p>
+      <p class="fs-6">.............. </p> </span>
   </div>
   </h3>
 
@@ -101,7 +190,7 @@
 
 
 
-          <ul class="navbar-nav me-auto col-xs-7 col-sm-6 col-lg-8" >
+          <div class="navbar-nav me-auto col-xs-7 col-sm-6 col-lg-8" >
 
             <style>
             .button {
@@ -247,58 +336,123 @@
               </a>
 
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="{{Route('relux')}}">Portfolio</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+
+            <li class="nav-item">
+              <!DOCTYPE html>
+              <html>
+              <head>
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+              <style>
+              body {
+                font-family: "Lato", sans-serif;
+              }
+
+              .sidepanel  {
+                width: 0;
+                position: fixed;
+                z-index: 1;
+                height: 1350px;
+                top: 0;
+                left: 0;
+                background-color: #ffff;
+                overflow-x: hidden;
+                transition: 0.5s;
+                padding-top: 60px;
+              }
+
+              .sidepanel a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 25px;
+                font-weight: bold;
+                color: #818181;
+                display: block;
+                transition: 0.3s;
+              }
+
+              .sidepanel a:hover {
+                color: #809FBF;
+              }
+
+              .sidepanel .closebtn {
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-size: 36px;
+              }
+
+              .openbtn {
+                font-size: 20px;
+                cursor: pointer;
+                background-color:
+                color: black;
+                padding: 10px 15px;
+                border: none;
+              }
+
+              .openbtn:hover {
+                background-color:
+              }
+              </style>
+              </head>
+              <body>
+
+              <div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="#"><img id="logo" src="image/logo.png"></a>
+                <br>
+                <div class="container">
+                <br>
+                <a href="#"></a>
+                <br>
+                <a href="#">Home</a>
+                <br>
+                <a href="#">Product & Solution</a>
+                <br>
+                <a href="#">Service Consulting</a>
+                <br>
+                <a href="#">Agent eKnight</a>
+                <br>
+                <a href="#">Contact Knight</a>
+
+              </div>
+
+              </div>
+
+              <button class="openbtn" onclick="openNav()">☰ </button>
+
+              <script>
+              function openNav() {
+                document.getElementById("mySidepanel").style.width = "1350px";
+              }
+
+              function closeNav() {
+                document.getElementById("mySidepanel").style.width = "0";
+              }
+              </script>
+
+              </body>
+              </html>
+
             </li>
 
-          </ul>
+          </div>
 
         </div>
       </div>
 
     </nav>
 
-    <div class="collapse" id="navbarToggleExternalContent">
 
-    <div class="bg-dark p-4">
-      <h5 class="text-white h4">Tech Knight Solution</h5>
-      <span class="text-muted"></span>
-    </div>
-
-    <div class="container">
 
       <style>
       h1 {text-align: center;}
 
       div {text-align: center;}
      </style>
-      <h1><a href="#">Home</a></h1>
-      <h1><a href="#">Product & Solution</a></h1>
-      <h1><a href="#">Service Consulting</a></h1>
-      <h1><a href="#">Agent eKnight</a></h1>
-      <h1><a href="#">Contact Knight</a></h1>
 
 
 
-    </div>
-
-  </div>
-  <nav class="navbar navbar-dark bg-dark">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-
-  </nav>
 
   </body>
 

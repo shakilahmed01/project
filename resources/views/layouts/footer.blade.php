@@ -3,13 +3,19 @@
     <html>
     <head>
     <style>
+    a {
+   text-decoration:none;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
     .grid-container {
       display: grid;
-      grid-template-columns: auto auto auto auto;
-      grid-gap: 10px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap:1px;
       background-color: #F5FFFA;
       color:white;
-      padding: 10px;
+      padding: ;
     }
 
     .grid-container  div {
@@ -38,18 +44,30 @@
 
     <div class="grid-container">
       <div class="container">
-        <h3>Discover Us</h3>
+        <br>
+        <br>
+        <br>
+        <h4>Discover Us</h4>
+        <br>
 
+        <a class="item" href="#">Home</a>
+        <br>
+        <a class="item" href="#">Company</a>
+        <br>
+        <a class="item" href="{{Route('relux')}}">Our Works</a>
+        <br>
+        <a class="item" href="#">process</a>
+        <br>
+        <a class="item" href="#">Career</a>
+        <br>
+        <a class="item" href="#">blog</a>
+        <br>
+        <a class="item" href="#">FAQ</a>
+        <br>
+        <br>
         <br>
         <br>
 
-        <li><a class="item" href="#">Home</a></li>
-        <li><a class="item" href="#">Company</a></li>
-        <li><a class="item" href="{{Route('relux')}}">Our Works</a></li>
-        <li><a class="item" href="#">process</a></li>
-        <li><a class="item" href="#">Career</a></li>
-        <li><a class="item" href="#">blog</a></li>
-        <li><a class="item" href="#">FAQ</a></li>
 
 
         <!DOCTYPE html>
@@ -72,24 +90,48 @@ margin: 5px 2px;
 }
 
 .fa-facebook {
-background: #3B5998;
+background: ;
 color: white;
+border-radius: 20%;
+}
+.fa-facebook:hover {
+background: #809FBF;
+color: white;
+border-radius: 20%;
 }
 
 .fa-twitter {
-background: #55ACEE;
+background: ;
 color: white;
+border-radius: 20%;
+}
+.fa-twitter:hover {
+background: #809FBF;
+color: white;
+border-radius: 20%;
 }
 
 
 .fa-linkedin {
-background: #007bb5;
+background: ;
 color: white;
+border-radius: 20%;
+}
+.fa-linkedin:hover {
+background: #809FBF;
+color: white;
+border-radius: 20%;
 }
 
 .fa-instagram {
-background: #125688;
+background: ;
 color: white;
+border-radius: 20%;
+}
+.fa-instagram:hover {
+background: #809FBF;
+color: white;
+border-radius: 20%;
 }
 
 </style>
@@ -103,16 +145,20 @@ color: white;
   <a href="https://www.instagram.com/selectthemes/" class="fa fa-instagram"></a>
 
 
-     <h3>World Wide Station</h3>
+     <h4>World Wide Station</h4>
+     <br>
 
      <hr>
-    <a class="item" href="#">| USA |</a>
-    <a class="item" href="#">| DUBAI |</a>
+    <a class="item" href="#"> USA |</a>
+    <a class="item" href="#"> DUBAI |</a>
     <hr>
-    <a class="item" href="#">| SYDNEY |</a>
-    <a class="item" href="#" >| UK |</a>
-    <a class="item" href="#">| MELBOURN |</a>
+    <a class="item" href="#"> SYDNEY |</a>
+    <a class="item" href="#" > UK |</a>
+    <a class="item" href="#"> MELBOURN </a>
     <hr>
+    <br>
+    <br>
+    <br>
 
 
 
@@ -124,22 +170,47 @@ color: white;
 
       </div>
       <div class="container">
-        <h3>Product & Service</h3>
-
         <br>
         <br>
+        <br>
+        <h4>Product & Services</h4>
+        <br>
 
-        <li><a class="item" href="#">Web Development</a></li>
-        <li><a class="item" href="#">Mobile App Development</a></li>
-        <li><a class="item" href="#">Graphics & Animation</a></li>
-        <li><a class="item" href="#">eCommerce</a></li>
-        <li><a class="item" href="#">Software Development</a></li>
-        <li><a class="item" href="#">AR/VR Solutions</a></li>
-        <li><a class="item" href="#">Agent Knights</a></li>
-        <li><a class="item" href="#">Digital Marketing</a></li>
-        <li><a class="item" href="#">SEO</a></li>
-        <li><a class="item" href="#">Game Development</a></li>
-        <li><a class="item" href="#">Social Site Maintenance</a></li>
+
+        <a class="item" href="#">Web Development</a>
+        <br>
+        <a class="item" href="#">Mobile App Development</a>
+        <br>
+        <a class="item" href="#">Graphics & Animation</a>
+        <br>
+        <a class="item" href="#">eCommerce</a>
+        <br>
+        <a class="item" href="#">Software Development</a>
+        <br>
+        <a class="item" href="#">AR/VR Solutions</a>
+        <br>
+        <a class="item" href="#">Agent Knights</a>
+        <br>
+        <a class="item" href="#">Digital Marketing</a>
+        <br>
+        <a class="item" href="#">SEO</a>
+        <br>
+        <a class="item" href="#">Game Development</a>
+        <br>
+        <a class="item" href="#">Social Site Maintenance</a>
+        <br>
+        <br>
+        <h4>Contact Us</h4>
+        <br>
+        <a class="item" href="#">Land Line: + 88 02 899 1919</a>
+        <br>
+        <a class="item" href="#">Land Line: + 88 02 4895 4418</a>
+        <br>
+        <a class="item" href="#">Mobile: + 880 1552 375 890</a>
+        <br>
+        <a class="item" href="#">info@techknightsolutions.com</a>
+        <br>
+
 
 
 
@@ -150,14 +221,18 @@ color: white;
       </div>
 
       <div class="container">
-        <h3>Tech Knowledge Management</h3>
         <br>
         <br>
+        <br>
+        <h4>Tech Knowledge Management</h4>
         <br>
         <br>
         <br>
 
+
         <div class="w3-container w3-center ">
+          <br>
+          <br>
           <h3>Subscribe Special NewsLetters</h3>
           <h4>Latest tech news and tech information updates</h4>
 
@@ -167,13 +242,16 @@ color: white;
           </form>
 
           <hr>
-         <a class="item" href="#">| Terms Of Service |</a>
-         <a class="item" href="#">| Privacy Policy |</a>
+         <a class="item" href="#"> Terms Of Service |</a>
+         <a class="item" href="#"> Privacy Policy </a>
          <hr>
 
 
 
       </div>
+      <br>
+      <br>
+      <br>
       </div>
 
     </div>
@@ -201,7 +279,7 @@ color: white;
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: #002242;
+   background-color: #191F35;
    color: white;
    text-align: center;
 }

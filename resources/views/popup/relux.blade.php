@@ -73,15 +73,13 @@
           <h1 class="display-1">Amazing Works</h1>
 
 
-
-
-        <button type="button" class="btn btn-danger">Web system </button>
-        <button type="button" class="btn btn-danger">Mobile App </button>
-        <button type="button" class="btn btn-danger">eCommerce </button>
-        <button type="button" class="btn btn-danger">Game Development </button>
-        <button type="button" class="btn btn-danger">Graphics & Animation </button>
-        <button type="button" class="btn btn-danger">AR/VR </button>
-        <button type="button" class="btn btn-danger">Social site Management </button>
+        <a href="#" type="button" class="btn btn-danger">Web system </a>
+        <a href="#" type="button" class="btn btn-danger">Mobile App </a>
+        <a href="#" type="button" class="btn btn-danger">eCommerce </a>
+        <a href="#" type="button" class="btn btn-danger">Game Development </a>
+        <a href="#" type="button" class="btn btn-danger">Graphics & Animation </a>
+        <a href="#" type="button" class="btn btn-danger">AR/VR </a>
+        <a href="#" type="button" class="btn btn-danger">Social site Management </a>
 
 
 
@@ -117,7 +115,7 @@
       <br>
       <br>
       <br>
-          <hr>
+
 
           <div class="col text-center">
           <!-- Button trigger modal -->
@@ -125,7 +123,7 @@
          view more
          </button>
 
-         </hr>
+
       <!-- Modal -->
           <div class="modal fade" id="P1IOS" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
@@ -208,7 +206,7 @@
 
 
               </div>
-              <hr>
+
               </div>
             </div>
               </div>
@@ -238,13 +236,13 @@
       <br>
       <br>
 
-             <hr>
+
              <div class="col text-center">
              <!-- Button trigger modal -->
              <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#mobile1">
              view more
              </button>
-            </hr>
+
             <!-- Modal -->
             <div class="modal fade" id="mobile1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -308,7 +306,7 @@
 
 
               </div>
-              <hr>
+
               </div>
             </div>
           </div>
@@ -338,13 +336,13 @@
       <br>
       <br>
 
-             <hr>
+
              <div class="col text-center">
              <!-- Button trigger modal -->
              <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#mobile2">
              view more
              </button>
-            </hr>
+
             <!-- Modal -->
             <div class="modal fade" id="mobile2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -391,7 +389,7 @@
 
 
               </div>
-              <hr>
+
               </div>
             </div>
           </div>
@@ -416,7 +414,7 @@
       <br>
       <br>
       <br>
-          <hr>
+
 
           <div class="col text-center">
           <!-- Button trigger modal -->
@@ -424,7 +422,7 @@
          view more
          </button>
 
-         </hr>
+
       <!-- Modal -->
           <div class="modal fade" id="P2-IOS" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
@@ -496,7 +494,7 @@
 
 
               </div>
-              <hr>
+
               </div>
             </div>
           </div>
@@ -523,7 +521,7 @@
       <br>
       <br>
       <br>
-          <hr>
+
 
           <div class="col text-center">
           <!-- Button trigger modal -->
@@ -531,7 +529,7 @@
          view more
          </button>
 
-         </hr>
+
       <!-- Modal -->
           <div class="modal fade" id="P3-IOS" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
@@ -594,7 +592,7 @@
 
 
               </div>
-              <hr>
+
               </div>
             </div>
           </div>
@@ -621,13 +619,13 @@
       <br>
       <br>
 
-             <hr>
+
              <div class="col text-center">
              <!-- Button trigger modal -->
              <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#mobile3">
              view more
              </button>
-            </hr>
+
             <!-- Modal -->
             <div class="modal fade" id="mobile3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -674,7 +672,7 @@
 
 
               </div>
-              <hr>
+
               </div>
             </div>
           </div>
@@ -703,13 +701,13 @@
       <br>
       <br>
 
-             <hr>
+
              <div class="col text-center">
              <!-- Button trigger modal -->
              <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#mobile4">
              view more
              </button>
-            </hr>
+
             <!-- Modal -->
             <div class="modal fade" id="mobile4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -756,7 +754,7 @@
 
 
               </div>
-              <hr>
+
               </div>
             </div>
           </div>
@@ -781,7 +779,7 @@
       <br>
       <br>
       <br>
-          <hr>
+
 
           <div class="col text-center">
           <!-- Button trigger modal -->
@@ -789,7 +787,7 @@
          view more
          </button>
 
-         </hr>
+
       <!-- Modal -->
           <div class="modal fade" id="P4-IOS" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
@@ -841,7 +839,7 @@
 
 
               </div>
-              <hr>
+
               </div>
             </div>
           </div>
@@ -869,7 +867,7 @@
       <br>
       <br>
       <br>
-          <hr>
+
 
           <div class="col text-center">
           <!-- Button trigger modal -->
@@ -877,7 +875,7 @@
          view more
          </button>
 
-         </hr>
+
       <!-- Modal -->
           <div class="modal fade" id="P5-IOS" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
@@ -929,7 +927,7 @@
 
 
               </div>
-              <hr>
+
               </div>
             </div>
           </div>
@@ -956,13 +954,13 @@
       <br>
       <br>
 
-             <hr>
+
              <div class="col text-center">
              <!-- Button trigger modal -->
              <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#mobile5">
              view more
              </button>
-            </hr>
+
             <!-- Modal -->
             <div class="modal fade" id="mobile5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -1009,7 +1007,7 @@
 
 
               </div>
-              <hr>
+
               </div>
             </div>
           </div>
@@ -1039,13 +1037,13 @@
       <br>
       <br>
 
-             <hr>
+
              <div class="col text-center">
              <!-- Button trigger modal -->
              <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#mobile6">
              view more
              </button>
-            </hr>
+
             <!-- Modal -->
             <div class="modal fade" id="mobile6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -1092,7 +1090,7 @@
 
 
               </div>
-              <hr>
+
               </div>
             </div>
           </div>
@@ -1117,7 +1115,7 @@
       <br>
       <br>
       <br>
-          <hr>
+
 
           <div class="col text-center">
           <!-- Button trigger modal -->
@@ -1125,7 +1123,7 @@
          view more
          </button>
 
-         </hr>
+
       <!-- Modal -->
           <div class="modal fade" id="P6-IOS" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
@@ -1177,7 +1175,7 @@
 
 
               </div>
-              <hr>
+
               </div>
             </div>
           </div>
@@ -1206,7 +1204,7 @@
       <br>
       <br>
       <br>
-          <hr>
+
 
           <div class="col text-center">
           <!-- Button trigger modal -->
@@ -1214,7 +1212,7 @@
          view more
          </button>
 
-         </hr>
+
       <!-- Modal -->
           <div class="modal fade" id="P7-IOS" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
@@ -1266,7 +1264,7 @@
 
 
               </div>
-              <hr>
+
               </div>
             </div>
           </div>
@@ -1293,13 +1291,13 @@
       <br>
       <br>
 
-             <hr>
+
              <div class="col text-center">
              <!-- Button trigger modal -->
              <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#mobile7">
              view more
              </button>
-            </hr>
+
             <!-- Modal -->
             <div class="modal fade" id="mobile7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -1346,7 +1344,7 @@
 
 
               </div>
-              <hr>
+
               </div>
             </div>
           </div>
@@ -1376,13 +1374,13 @@
       <br>
       <br>
 
-             <hr>
+
              <div class="col text-center">
              <!-- Button trigger modal -->
              <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#mobile8">
              view more
              </button>
-            </hr>
+
             <!-- Modal -->
             <div class="modal fade" id="mobile8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -1429,7 +1427,7 @@
 
 
               </div>
-              <hr>
+
               </div>
             </div>
           </div>
@@ -1454,7 +1452,7 @@
       <br>
       <br>
       <br>
-          <hr>
+
 
           <div class="col text-center">
           <!-- Button trigger modal -->
@@ -1462,7 +1460,7 @@
          view more
          </button>
 
-         </hr>
+
       <!-- Modal -->
           <div class="modal fade" id="P8-IOS" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
@@ -1514,7 +1512,7 @@
 
 
               </div>
-              <hr>
+
               </div>
             </div>
           </div>
@@ -1542,7 +1540,7 @@
       <br>
       <br>
       <br>
-          <hr>
+
 
           <div class="col text-center">
           <!-- Button trigger modal -->
@@ -1550,7 +1548,7 @@
          view more
          </button>
 
-         </hr>
+
       <!-- Modal -->
           <div class="modal fade" id="P9-IOS" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
@@ -1602,7 +1600,7 @@
 
 
               </div>
-              <hr>
+
               </div>
             </div>
           </div>
@@ -1629,13 +1627,13 @@
       <br>
       <br>
 
-             <hr>
+
              <div class="col text-center">
              <!-- Button trigger modal -->
              <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#mobile9">
              view more
              </button>
-            </hr>
+
             <!-- Modal -->
             <div class="modal fade" id="mobile9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -1682,7 +1680,7 @@
 
 
               </div>
-              <hr>
+
               </div>
             </div>
           </div>
@@ -1713,13 +1711,13 @@
       <br>
       <br>
 
-             <hr>
+
              <div class="col text-center">
              <!-- Button trigger modal -->
              <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#mobile10">
              view more
              </button>
-            </hr>
+
             <!-- Modal -->
             <div class="modal fade" id="mobile10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -1766,7 +1764,7 @@
 
 
               </div>
-              <hr>
+
               </div>
             </div>
           </div>
@@ -1791,7 +1789,7 @@
       <br>
       <br>
       <br>
-          <hr>
+
 
           <div class="col text-center">
           <!-- Button trigger modal -->
@@ -1799,7 +1797,7 @@
          view more
          </button>
 
-         </hr>
+
       <!-- Modal -->
           <div class="modal fade" id="P10-IOS" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
@@ -1851,7 +1849,7 @@
 
 
               </div>
-              <hr>
+
               </div>
             </div>
           </div>
@@ -1882,7 +1880,7 @@
       <br>
       <br>
       <br>
-          <hr>
+
 
           <div class="col text-center">
           <!-- Button trigger modal -->
@@ -1890,7 +1888,7 @@
          view more
          </button>
 
-         </hr>
+
       <!-- Modal -->
           <div class="modal fade" id="P11-IOS" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
@@ -1940,7 +1938,7 @@
 
 
               </div>
-              <hr>
+
               </div>
             </div>
           </div>
@@ -1967,13 +1965,13 @@
       <br>
       <br>
 
-             <hr>
+
              <div class="col text-center">
              <!-- Button trigger modal -->
              <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#mobile11">
              view more
              </button>
-            </hr>
+
             <!-- Modal -->
             <div class="modal fade" id="mobile11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -2020,7 +2018,7 @@
 
 
               </div>
-              <hr>
+
               </div>
             </div>
           </div>
