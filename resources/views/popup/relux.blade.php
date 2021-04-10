@@ -1,5 +1,5 @@
 @include('layouts.nevheader')
-@extends("layouts.app")
+@extends('layouts.fixed')
 @section('content')
     <div class="content">
 
@@ -10,7 +10,7 @@
          .bs-example{
              margin: 20px;
          }
-         body { width: 100%; margin: 0; padding: 0; overflow-x: hidden; background: #FD7F64; color: #F8F8FF;}
+         body { width: 100%; margin: 0; padding: ; overflow-x: hidden; background: #FD7F64; color: #F8F8FF;}
          h1.heading1 { font-size: 36px; font-weight: 800; text-align: center; margin-top: 40px; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);}
 
          .jumbotron p { font-size: 16px; color: #373737; line-height: 1.6;}
@@ -72,14 +72,23 @@
           <br>
           <h1 class="display-1">Amazing Works</h1>
 
+          <br>
+          <br>
 
-        <a href="#" type="button" class="btn btn-danger">Web system </a>
+
+        <a href="https://techknightsolutions.com/t-portfolio/#web_system" type="button" class="btn btn-danger">Web system </a>
         <a href="#" type="button" class="btn btn-danger">Mobile App </a>
         <a href="#" type="button" class="btn btn-danger">eCommerce </a>
         <a href="#" type="button" class="btn btn-danger">Game Development </a>
+        <br>
+        <br>
         <a href="#" type="button" class="btn btn-danger">Graphics & Animation </a>
         <a href="#" type="button" class="btn btn-danger">AR/VR </a>
+        <br>
+        <br>
         <a href="#" type="button" class="btn btn-danger">Social site Management </a>
+        <br>
+        <br>
 
 
 
@@ -418,13 +427,13 @@
 
           <div class="col text-center">
           <!-- Button trigger modal -->
-         <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#P2-IOS">
+         <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#P2IOS">
          view more
          </button>
 
 
       <!-- Modal -->
-          <div class="modal fade" id="P2-IOS" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal fade" id="P2IOS" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
           <div class="modal-content">
 
@@ -2033,7 +2042,6 @@
       </div>
       </div>
       </div>
-
 
 
 

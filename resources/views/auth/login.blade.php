@@ -3,6 +3,19 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
+      <style>
+              #logo {
+        display: inline-block;
+        position: absolute;
+        margin: 15px; /* margin: 20px was off */
+        float: left;
+        height: 160px;
+        width: auto; /* correct proportions to specified height */
+        border-radius: 0%; /* makes it a circle */
+      }
+      </style>
+
+              <a href="#"><img id="logo" src="image/Tech Knight Solution Logo.gif"></a>
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">{{ __('Login') }}</div>
