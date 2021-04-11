@@ -346,6 +346,9 @@
               body {
                 font-family: "Lato", sans-serif;
               }
+              .void{
+                font-weight: bold;
+              }
 
               .sidepanel  {
                 width: 0;
@@ -401,7 +404,7 @@
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
                 <a href="#"><img id="logo" src="image/logo.png"></a>
                 <br>
-                <div class="container">
+                <div class="void">
                 <br>
                 <a href="#"></a>
                 <br>
@@ -419,7 +422,7 @@
 
               </div>
 
-              <button class="openbtn" onclick="openNav()">☰ </button>
+              <button class="openbtn" onclick="openNav()"> ☰ </button>
 
               <script>
               function openNav() {

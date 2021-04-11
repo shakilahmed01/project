@@ -64,7 +64,7 @@
 
 
 
-      <div class="jumbotron jumbotron-fluid" style="background-image: url('{{asset('image/amz6.jpg')}}')">
+      <div class="jumbotron jumbotron-fluid" style="background-image: url('{{asset('image/workspic.jpeg')}}')">
         <div class="bg-overlay animated">
         <div class="container">
 
