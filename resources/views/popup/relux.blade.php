@@ -8,7 +8,7 @@
 
          body { background: AliceBlue !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
          .bs-example{
-             margin: 20px;
+             margin:;
          }
          body { width: 100%; margin: 0; padding: ; overflow-x: hidden; background: #FD7F64; color: #F8F8FF;}
          h1.heading1 { font-size: 36px; font-weight: 800; text-align: center; margin-top: 40px; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);}
@@ -16,7 +16,11 @@
          .jumbotron p { font-size: 16px; color: #373737; line-height: 1.6;}
          .jumbotron h1 { color: #FFFAF0; font-weight: 800;}
          .jumbotron .btn { background-color: #191F35; border: none;}
-         .jumbotron .btn:hover,
+         .jumbotron .btn:hover{
+
+             text-decoration: none;
+             background-color: #809FBF;
+         }
          .jumbotron .btn:focus,
          .jumbotron .btn.active { background-color: #809FBF;}
          .jumbotron .bg-overlay {
@@ -54,11 +58,14 @@
 
 
       .carousel-control-prev-icon {
-          background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e") !important;
+          background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' width='auto' height='auto' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e") !important;
       }
       .carousel-control-next-icon {
-          background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e") !important;
+          background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' width='auto' height='auto' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e") !important;
       }
+
+
+
 
       </style>
 
@@ -145,57 +152,23 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-
-
-
-
 
 
          </ol>
          <div class="carousel-inner">
          <div class="carousel-item active">
-         <img class="d-block w-100" src="{{asset('Products IOS/P1 IOS/IOS P1-2.jpeg')}}" alt="First slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P1 IOS/IOS P1-1.jpeg')}}" width="300" height="600px" alt="First slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P1 IOS/IOS P1-3.jpeg')}}" alt="Second slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P1 IOS/IOS P1-2.jpeg')}}" width="300" height="600px" alt="Second slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P1 IOS/IOS P1-4.jpeg')}}" alt="Third slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P1 IOS/IOS P1-3.jpeg')}}" width="300" height="600px" alt="Third slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P1 IOS/IOS P1-1.jpeg')}}" alt="Forth slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P1 IOS/IOS P1-4.jpeg')}}" width="300" height="600px" alt="Forth slide">
          </div>
-         <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P2 IOS/IOS P2-1.jpeg')}}" alt="First slide">
-         </div>
-         <div class="carousel-item ">
-         <img class="d-block w-100" src="{{asset('Products IOS/P2 IOS/IOS P2-2.jpeg')}}" alt="First slide">
-         </div>
-         <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P2 IOS/IOS P2-3.jpeg')}}" alt="Second slide">
-         </div>
-         <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P2 IOS/IOS P2-4.jpeg')}}" alt="Third slide">
-         </div>
-         <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P2 IOS/IOS P2-5.jpeg')}}" alt="Forth slide">
-         </div>
-         <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P2 IOS/IOS P2-6.jpeg')}}" alt="Forth slide">
-         </div>
-         <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P2 IOS/IOS P2-7.jpeg')}}" alt="Forth slide">
-         </div>
-         <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P2 IOS/IOS P2-8.jpeg')}}" alt="Forth slide">
-         </div>
+
 
          </div>
          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -272,7 +245,7 @@
             </ol>
             <div class="carousel-inner">
             <div class="carousel-item active">
-            <img class="d-block w-100" src="{{asset('Products IOS/P2 IOS/IOS P2-1.jpeg')}}" alt="First slide">
+            <img class="img-fluid" src="{{asset('Products IOS/P2 IOS/IOS P2-1.jpeg')}}" alt="First slide">
             </div>
             <div class="carousel-item active">
             <img class="d-block w-100" src="{{asset('Products IOS/P2 IOS/IOS P2-2.jpeg')}}" alt="First slide">
@@ -453,35 +426,35 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
 
-              <img class="d-block w-100" src="{{asset('Products IOS/P2 IOS/IOS P2-1.jpeg')}}" alt="First slide">
+              <img class="img-fluid" src="{{asset('Products IOS/P2 IOS/IOS P2-1.jpeg')}}" width="300" height="600px" alt="First slide">
               </div>
               <div class="carousel-item ">
 
-              <img class="d-block w-100" src="{{asset('Products IOS/P2 IOS/IOS P2-2.jpeg')}}" alt="First slide">
+              <img class="img-fluid" src="{{asset('Products IOS/P2 IOS/IOS P2-2.jpeg')}}" width="300" height="600px" alt="First slide">
               </div>
               <div class="carousel-item">
 
-              <img class="d-block w-100" src="{{asset('Products IOS/P2 IOS/IOS P2-3.jpeg')}}" alt="Second slide">
+              <img class="img-fluid" src="{{asset('Products IOS/P2 IOS/IOS P2-3.jpeg')}}" width="300" height="600px" alt="Second slide">
               </div>
               <div class="carousel-item">
 
-              <img class="d-block w-100" src="{{asset('Products IOS/P2 IOS/IOS P2-4.jpeg')}}" alt="Third slide">
+              <img class="img-fluid" src="{{asset('Products IOS/P2 IOS/IOS P2-4.jpeg')}}" width="300" height="600px" alt="Third slide">
               </div>
               <div class="carousel-item">
 
-              <img class="d-block w-100" src="{{asset('Products IOS/P2 IOS/IOS P2-5.jpeg')}}" alt="Forth slide">
+              <img class="img-fluid" src="{{asset('Products IOS/P2 IOS/IOS P2-5.jpeg')}}" width="300" height="600px" alt="Forth slide">
               </div>
               <div class="carousel-item">
 
-              <img class="d-block w-100" src="{{asset('Products IOS/P2 IOS/IOS P2-6.jpeg')}}" alt="Forth slide">
+              <img class="img-fluid" src="{{asset('Products IOS/P2 IOS/IOS P2-6.jpeg')}}" width="300" height="600px" alt="Forth slide">
               </div>
               <div class="carousel-item">
 
-              <img class="d-block w-100" src="{{asset('Products IOS/P2 IOS/IOS P2-7.jpeg')}}" alt="Forth slide">
+              <img class="img-fluid" src="{{asset('Products IOS/P2 IOS/IOS P2-7.jpeg')}}" width="300" height="600px" alt="Forth slide">
               </div>
               <div class="carousel-item">
 
-              <img class="d-block w-100" src="{{asset('Products IOS/P2 IOS/IOS P2-8.jpeg')}}" alt="Forth slide">
+              <img class="img-fluid" src="{{asset('Products IOS/P2 IOS/IOS P2-8.jpeg')}}" width="300" height="600px" alt="Forth slide">
               </div>
 
 
@@ -559,28 +532,28 @@
          </ol>
          <div class="carousel-inner">
            <div class="carousel-item active">
-           <img class="d-block w-100" src="{{asset('Products IOS/P3 IOS/IOS P3-1.jpeg')}}" alt="First slide">
+           <img class="img-fluid" src="{{asset('Products IOS/P3 IOS/IOS P3-1.jpeg')}}" width="300" height="600px" alt="First slide">
            </div>
            <div class="carousel-item">
-           <img class="d-block w-100" src="{{asset('Products IOS/P3 IOS/IOS P3-2.jpeg')}}" alt="Second slide">
+           <img class="img-fluid" src="{{asset('Products IOS/P3 IOS/IOS P3-2.jpeg')}}" width="300" height="600px" alt="Second slide">
            </div>
            <div class="carousel-item">
-           <img class="d-block w-100" src="{{asset('Products IOS/P3 IOS/IOS P3-3.jpeg')}}" alt="Third slide">
+           <img class="img-fluid" src="{{asset('Products IOS/P3 IOS/IOS P3-3.jpeg')}}" width="300" height="600px" alt="Third slide">
            </div>
            <div class="carousel-item">
-           <img class="d-block w-100" src="{{asset('Products IOS/P3 IOS/IOS P3-4.jpeg')}}" alt="Forth slide">
+           <img class="img-fluid" src="{{asset('Products IOS/P3 IOS/IOS P3-4.jpeg')}}" width="300" height="600px" alt="Forth slide">
            </div>
            <div class="carousel-item">
-           <img class="d-block w-100" src="{{asset('Products IOS/P3 IOS/IOS P3-5.jpeg')}}" alt="Forth slide">
+           <img class="img-fluid" src="{{asset('Products IOS/P3 IOS/IOS P3-5.jpeg')}}" width="300" height="600px" alt="Forth slide">
            </div>
            <div class="carousel-item">
-           <img class="d-block w-100" src="{{asset('Products IOS/P3 IOS/IOS P3-6.jpeg')}}" alt="Forth slide">
+           <img class="img-fluid" src="{{asset('Products IOS/P3 IOS/IOS P3-6.jpeg')}}" width="300" height="600px" alt="Forth slide">
            </div>
            <div class="carousel-item">
-           <img class="d-block w-100" src="{{asset('Products IOS/P3 IOS/IOS P3-7.jpeg')}}" alt="Forth slide">
+           <img class="img-fluid" src="{{asset('Products IOS/P3 IOS/IOS P3-7.jpeg')}}" width="300" height="600px" alt="Forth slide">
            </div>
            <div class="carousel-item">
-           <img class="d-block w-100" src="{{asset('Products IOS/P3 IOS/IOS P3-8.jpeg')}}" alt="Forth slide">
+           <img class="img-fluid" src="{{asset('Products IOS/P3 IOS/IOS P3-8.jpeg')}}" width="300" height="600px" alt="Forth slide">
            </div>
 
          </div>
@@ -815,19 +788,19 @@
          </ol>
          <div class="carousel-inner">
          <div class="carousel-item active">
-         <img class="d-block w-100" src="{{asset('Products IOS/P4 IOS/IOS P4-1.jpeg')}}" alt="First slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P4 IOS/IOS P4-1.jpeg')}}" width="300" height="600px" alt="First slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P4 IOS/IOS P4-2.jpeg')}}" alt="Second slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P4 IOS/IOS P4-2.jpeg')}}" width="300" height="600px" alt="Second slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P4 IOS/IOS P4-3.jpeg')}}" alt="Third slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P4 IOS/IOS P4-3.jpeg')}}" width="300" height="600px" alt="Third slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P4 IOS/IOS P4-4.jpeg')}}" alt="Forth slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P4 IOS/IOS P4-4.jpeg')}}" width="300" height="600px" alt="Forth slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P4 IOS/IOS P4-5.jpeg')}}" alt="Forth slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P4 IOS/IOS P4-5.jpeg')}}" width="300" height="600px" alt="Forth slide">
          </div>
 
          </div>
@@ -903,19 +876,19 @@
          </ol>
          <div class="carousel-inner">
          <div class="carousel-item active">
-         <img class="d-block w-100" src="{{asset('Products IOS/P5 IOS/IOS P5-1.jpeg')}}" alt="First slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P5 IOS/IOS P5-1.jpeg')}}" width="300" height="600px" alt="First slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P5 IOS/IOS P5-2.jpeg')}}" alt="Second slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P5 IOS/IOS P5-2.jpeg')}}" width="300" height="600px" alt="Second slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P5 IOS/IOS P5-3.jpeg')}}" alt="Third slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P5 IOS/IOS P5-3.jpeg')}}" width="300" height="600px" alt="Third slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P5 IOS/IOS P5-4.jpeg')}}" alt="Forth slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P5 IOS/IOS P5-4.jpeg')}}" width="300" height="600px" alt="Forth slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P5 IOS/IOS P5-5.jpeg')}}" alt="Forth slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P5 IOS/IOS P5-5.jpeg')}}" width="300" height="600px" alt="Forth slide">
          </div>
 
          </div>
@@ -1151,19 +1124,19 @@
          </ol>
          <div class="carousel-inner">
          <div class="carousel-item active">
-         <img class="d-block w-100" src="{{asset('Products IOS/P6 IOS/IOS P6-1.jpeg')}}" alt="First slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P6 IOS/IOS P6-1.jpeg')}}" width="300" height="600px" alt="First slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P6 IOS/IOS P6-2.jpeg')}}" alt="Second slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P6 IOS/IOS P6-2.jpeg')}}" width="300" height="600px" alt="Second slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P6 IOS/IOS P6-3.jpeg')}}" alt="Third slide">
+         <img class="image-fluid" src="{{asset('Products IOS/P6 IOS/IOS P6-3.jpeg')}}" width="300" height="600px" alt="Third slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P6 IOS/IOS P6-4.jpeg')}}" alt="Forth slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P6 IOS/IOS P6-4.jpeg')}}" width="300" height="600px" alt="Forth slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P6 IOS/IOS P6-5.jpeg')}}" alt="Forth slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P6 IOS/IOS P6-5.jpeg')}}" width="300" height="600px" alt="Forth slide">
          </div>
 
          </div>
@@ -1240,19 +1213,19 @@
          </ol>
          <div class="carousel-inner">
          <div class="carousel-item active">
-         <img class="d-block w-100" src="{{asset('Products IOS/P7 IOS/IOS P7-1.jpeg')}}" alt="First slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P7 IOS/IOS P7-1.jpeg')}}" width="300" height="600px" alt="First slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P7 IOS/IOS P7-2.jpeg')}}" alt="Second slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P7 IOS/IOS P7-2.jpeg')}}" width="300" height="600px" alt="Second slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P7 IOS/IOS P7-3.jpeg')}}" alt="Third slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P7 IOS/IOS P7-3.jpeg')}}" width="300" height="600px" alt="Third slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P7 IOS/IOS P7-4.jpeg')}}" alt="Forth slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P7 IOS/IOS P7-4.jpeg')}}" width="300" height="600px" alt="Forth slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P7 IOS/IOS P7-5.jpeg')}}" alt="Forth slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P7 IOS/IOS P7-5.jpeg')}}" width="300" height="600px" alt="Forth slide">
          </div>
 
          </div>
@@ -1488,19 +1461,19 @@
          </ol>
          <div class="carousel-inner">
          <div class="carousel-item active">
-         <img class="d-block w-100" src="{{asset('Products IOS/P8 IOS/IOS P8-1.jpeg')}}" alt="First slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P8 IOS/IOS P8-1.jpeg')}}" width="300" height="600px" alt="First slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P8 IOS/IOS P8-2.jpeg')}}" alt="Second slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P8 IOS/IOS P8-2.jpeg')}}" width="300" height="600px" alt="Second slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P8 IOS/IOS P8-3.jpeg')}}" alt="Third slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P8 IOS/IOS P8-3.jpeg')}}" width="300" height="600px" alt="Third slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P8 IOS/IOS P8-4.jpeg')}}" alt="Forth slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P8 IOS/IOS P8-4.jpeg')}}" width="300" height="600px" alt="Forth slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P8 IOS/IOS P8-5.jpeg')}}" alt="Forth slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P8 IOS/IOS P8-5.jpeg')}}" width="300" height="600px" alt="Forth slide">
          </div>
 
          </div>
@@ -1576,19 +1549,19 @@
          </ol>
          <div class="carousel-inner">
          <div class="carousel-item active">
-         <img class="d-block w-100" src="{{asset('Products IOS/P9 IOS/IOS P9-1.jpeg')}}" alt="First slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P9 IOS/IOS P9-1.jpeg')}}" width="300" height="600px" alt="First slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P9 IOS/IOS P9-2.jpeg')}}" alt="Second slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P9 IOS/IOS P9-2.jpeg')}}" width="300" height="600px" alt="Second slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P9 IOS/IOS P9-3.jpeg')}}" alt="Third slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P9 IOS/IOS P9-3.jpeg')}}" width="300" height="600px" alt="Third slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P9 IOS/IOS P9-4.jpeg')}}" alt="Forth slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P9 IOS/IOS P9-4.jpeg')}}" width="300" height="600px" alt="Forth slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P9 IOS/IOS P9-5.jpeg')}}" alt="Forth slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P9 IOS/IOS P9-5.jpeg')}}" width="300" height="600px" alt="Forth slide">
          </div>
 
          </div>
@@ -1825,19 +1798,19 @@
          </ol>
          <div class="carousel-inner">
          <div class="carousel-item active">
-         <img class="d-block w-100" src="{{asset('Products IOS/P10 IOS/IOS P10-1.jpeg')}}" alt="First slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P10 IOS/IOS P10-1.jpeg')}}" width="300px" height="600px" alt="First slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P10 IOS/IOS P10-2.jpeg')}}" alt="Second slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P10 IOS/IOS P10-2.jpeg')}}" width="300px" height="600px" alt="Second slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P10 IOS/IOS P10-3.jpeg')}}" alt="Third slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P10 IOS/IOS P10-3.jpeg')}}" width="300px" height="600px" alt="Third slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P10 IOS/IOS P10-4.jpeg')}}" alt="Forth slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P10 IOS/IOS P10-4.jpeg')}}" width="300px" height="600px" alt="Forth slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P10 IOS/IOS P10-5.jpeg')}}" alt="Forth slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P10 IOS/IOS P10-5.jpeg')}}" width="300px" height="600px" alt="Forth slide">
          </div>
 
          </div>
@@ -1914,19 +1887,19 @@
          </ol>
          <div class="carousel-inner">
          <div class="carousel-item active">
-         <img class="d-block w-100" src="{{asset('Products IOS/P11 IOS/IOS P11-1.jpeg')}}" alt="First slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P11 IOS/IOS P11-1.jpeg')}}"  alt="First slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P11 IOS/IOS P11-2.jpeg')}}" alt="Second slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P11 IOS/IOS P11-2.jpeg')}}"  alt="Second slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P11 IOS/IOS P11-3.jpeg')}}" alt="Third slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P11 IOS/IOS P11-3.jpeg')}}"  alt="Third slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P11 IOS/IOS P11-4.jpeg')}}" alt="Forth slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P11 IOS/IOS P11-4.jpeg')}}"  alt="Forth slide">
          </div>
          <div class="carousel-item">
-         <img class="d-block w-100" src="{{asset('Products IOS/P11 IOS/IOS P11-5.jpeg')}}" alt="Forth slide">
+         <img class="img-fluid" src="{{asset('Products IOS/P11 IOS/IOS P11-5.jpeg')}}"  alt="Forth slide">
          </div>
 
          </div>
@@ -1956,7 +1929,7 @@
           <!--Service Table-->
 
           <div class="col-xs-3 col-md-5">
-            <div class="jumbotron rounded" style="background-image: url('{{asset('image/black 2.jpg')}}')" >
+            <div class="jumbotron rounded" style="background-image: url('{{asset('image/andro1.jpeg')}}')" >
                 <div class="bg-overlay animated">
                 <div class="container">
                   <h3 style="display-4: inline-block;">| Mobile photo Desk |</h3>
@@ -1997,16 +1970,19 @@
             </ol>
             <div class="carousel-inner">
             <div class="carousel-item active">
-            <img class="d-block w-100" src="{{asset('image/1st-2.jpeg')}}" alt="First slide">
+            <img class="img-fluid" src="{{asset('image/andro1-2.jpeg')}}" width="300" height="600px"  alt="First slide">
             </div>
             <div class="carousel-item">
-            <img class="d-block w-100" src="{{asset('image/1st-3.jpeg')}}" alt="Second slide">
+            <img class="img-fluid" src="{{asset('image/andro1-3.jpeg')}}" width="300" height="600px" alt="Second slide">
             </div>
             <div class="carousel-item">
-            <img class="d-block w-100" src="{{asset('image/1st-4.jpeg')}}" alt="Third slide">
+            <img class="img-fluid" src="{{asset('image/andro1-4.jpeg')}}" width="300" height="600px" alt="Third slide">
             </div>
             <div class="carousel-item">
-            <img class="d-block w-100" src="{{asset('image/1st-5.jpeg')}}" alt="Forth slide">
+            <img class="img-fluid" src="{{asset('image/andro1-5.jpeg')}}" width="300" height="600px" alt="Forth slide">
+            </div>
+            <div class="carousel-item">
+            <img class="img-fluid" src="{{asset('image/andro1-6.jpeg')}}" width="300" height="600px" alt="Forth slide">
             </div>
 
             </div>

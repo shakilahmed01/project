@@ -8,7 +8,9 @@ use App\Models\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
-
+use Illuminate\Auth\Events\Registered;
+use Illuminate\Http\Request;
+use App\SendCode;
 class RegisterController extends Controller
 {
     /*
@@ -29,7 +31,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = RouteServiceProvider::HOME;
+    protected $redirectTo = '/verify';
 
     /**
      * Create a new controller instance.
@@ -55,7 +57,11 @@ class RegisterController extends Controller
             'password' => ['required', 'string', 'min:8', 'confirmed'],
         ]);
     }
-
+public function register(Request $request){
+  $this->validator($request-> all())->validate();
+  event(new Registered($user= $this->create($request->all())));
+  return $this->registered($request,$user) ?: redirect ('/verify?phone='. $request->phone);
+}
     /**
      * Create a new user instance after a valid registration.
      *
@@ -64,10 +70,16 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
+        $user=User::create([
             'name' => $data['name'],
             'email' => $data['email'],
+            'phone' =>$data['phone'],
+            'active'=>0,
             'password' => Hash::make($data['password']),
         ]);
+        if ($user){
+          $user->code=SendCode::sendCode($user->phone);
+          $user->save();
+        }
     }
 }

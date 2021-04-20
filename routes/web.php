@@ -50,3 +50,9 @@ Route::get('/jumbortan', [App\Http\Controllers\ConferenceController::class, 'jum
 Route::get('/peraa', [App\Http\Controllers\ConferenceController::class, 'peraa'])->name('peraa');
 Route::get('/relux', [App\Http\Controllers\ConferenceController::class, 'relux'])->name('relux');
 Route::get('/deep', [App\Http\Controllers\ConferenceController::class, 'deep'])->name('deep');
+
+
+
+
+Route::get('/verify', [App\Http\Controllers\verifyController::class, 'getVerify'])->name('getverify');
+Route::post('/verify', [App\Http\Controllers\verifyController::class, 'postVerify'])->name('verify');

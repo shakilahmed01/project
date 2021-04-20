@@ -61,94 +61,7 @@
   }
 
   </style>
-  <style>
-  .shakil2{
-    background-color:#191F35;
-  }
-  </style>
 
-  <h3 >
-
-  <div class="shakil2">
-
-    <span > <p class="fs-6">Beta Version | update is on progress </p>
-       <p class="fs-6"><select data-placeholder="Choose a Language...">
-  <option value="AF">English</option>
-  <option value="SQ">Albanian</option>
-  <option value="AR">Arabic</option>
-  <option value="HY">Armenian</option>
-  <option value="EU">Basque</option>
-  <option value="BN">Bengali</option>
-  <option value="BG">Bulgarian</option>
-  <option value="CA">Catalan</option>
-  <option value="KM">Cambodian</option>
-  <option value="ZH">Chinese (Mandarin)</option>
-  <option value="HR">Croatian</option>
-  <option value="CS">Czech</option>
-  <option value="DA">Danish</option>
-  <option value="NL">Dutch</option>
-  <option value="EN">Afrikaans</option>
-  <option value="ET">Estonian</option>
-  <option value="FJ">Fiji</option>
-  <option value="FI">Finnish</option>
-  <option value="FR">French</option>
-  <option value="KA">Georgian</option>
-  <option value="DE">German</option>
-  <option value="EL">Greek</option>
-  <option value="GU">Gujarati</option>
-  <option value="HE">Hebrew</option>
-  <option value="HI">Hindi</option>
-  <option value="HU">Hungarian</option>
-  <option value="IS">Icelandic</option>
-  <option value="ID">Indonesian</option>
-  <option value="GA">Irish</option>
-  <option value="IT">Italian</option>
-  <option value="JA">Japanese</option>
-  <option value="JW">Javanese</option>
-  <option value="KO">Korean</option>
-  <option value="LA">Latin</option>
-  <option value="LV">Latvian</option>
-  <option value="LT">Lithuanian</option>
-  <option value="MK">Macedonian</option>
-  <option value="MS">Malay</option>
-  <option value="ML">Malayalam</option>
-  <option value="MT">Maltese</option>
-  <option value="MI">Maori</option>
-  <option value="MR">Marathi</option>
-  <option value="MN">Mongolian</option>
-  <option value="NE">Nepali</option>
-  <option value="NO">Norwegian</option>
-  <option value="FA">Persian</option>
-  <option value="PL">Polish</option>
-  <option value="PT">Portuguese</option>
-  <option value="PA">Punjabi</option>
-  <option value="QU">Quechua</option>
-  <option value="RO">Romanian</option>
-  <option value="RU">Russian</option>
-  <option value="SM">Samoan</option>
-  <option value="SR">Serbian</option>
-  <option value="SK">Slovak</option>
-  <option value="SL">Slovenian</option>
-  <option value="ES">Spanish</option>
-  <option value="SW">Swahili</option>
-  <option value="SV">Swedish </option>
-  <option value="TA">Tamil</option>
-  <option value="TT">Tatar</option>
-  <option value="TE">Telugu</option>
-  <option value="TH">Thai</option>
-  <option value="BO">Tibetan</option>
-  <option value="TO">Tonga</option>
-  <option value="TR">Turkish</option>
-  <option value="UK">Ukrainian</option>
-  <option value="UR">Urdu</option>
-  <option value="UZ">Uzbek</option>
-  <option value="VI">Vietnamese</option>
-  <option value="CY">Welsh</option>
-  <option value="XH">Xhosa</option>
-</select></p>
-     </span>
-
-  </div>
 
 
   <style>
@@ -163,7 +76,9 @@
       <span  > <p class="fs-6">................ </p>
       <p class="fs-6">.............. </p> </span>
   </div>
-  </h3>
+
+
+
 
 
 <div class="header" id="myHeader">
@@ -173,7 +88,6 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-      <div class="container-fluid">
 <style>
         #logo {
   display: inline-block;
@@ -188,110 +102,107 @@
         <a href="#"><img id="logo" src="image/logo.png"></a>
       </div>
 
+      <style>
+      .button1 {
+        border-radius: 4px;
+        background-color: #809FBF;
+        border: none;
+        color: #000000;
+        text-align: center;
+        font-size: 15px;
+        padding: 10px;
+        width: 300px;
+        font-weight: bold;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
 
+      .button1 span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+
+      .button1 span:after {
+
+        content: '\00bb';
+        color: #ffff;
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+
+      .button1:hover span {
+        color: #ffff;
+        padding-right: 25px;
+      }
+
+      .button1:hover span:after {
+
+        opacity: 1;
+        right: 0;
+
+      }
+
+      </style>
+
+      <style>
+      .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .dropdown-content a:hover {background-color: #f1f1f1}
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+      }
+      </style>
 
           <div class="navbar-nav me-auto col-xs-7 col-sm-6 col-lg-8" >
 
-            <style>
-            .button {
-              border-radius: 4px;
-              background-color: #809FBF;
-              border: none;
-              color: #000000;
-              text-align: center;
-              font-size: 15px;
-              padding: 10px;
-              width: 300px;
-              font-weight: bold;
-              transition: all 0.5s;
-              cursor: pointer;
-              margin: 5px;
-            }
-
-            .button span {
-              cursor: pointer;
-              display: inline-block;
-              position: relative;
-              transition: 0.5s;
-            }
-
-            .button span:after {
-
-              content: '\00bb';
-              color: #ffff;
-              position: absolute;
-              opacity: 0;
-              top: 0;
-              right: -20px;
-              transition: 0.5s;
-            }
-
-            .button:hover span {
-              color: #ffff;
-              padding-right: 25px;
-            }
-
-            .button:hover span:after {
-
-              opacity: 1;
-              right: 0;
-
-            }
-
-            </style>
-
-            <style>
-            <style>
-            .dropbtn {
-              background-color: #4CAF50;
-              color: white;
-              padding: 16px;
-              font-size: 16px;
-              border: none;
-              cursor: pointer;
-            }
-
-            .dropdown {
-              position: relative;
-              display: inline-block;
-            }
-
-            .dropdown-content {
-              display: none;
-              position: absolute;
-              background-color: #f9f9f9;
-              min-width: 160px;
-              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-              z-index: 1;
-            }
-
-            .dropdown-content a {
-              color: black;
-              padding: 12px 16px;
-              text-decoration: none;
-              display: block;
-            }
-
-            .dropdown-content a:hover {background-color: #f1f1f1}
-
-            .dropdown:hover .dropdown-content {
-              display: block;
-            }
-
-            .dropdown:hover .dropbtn {
-              background-color: #3e8e41;
-            }
-            </style>
-
               <li class="nav-item" >
-                     <a class="button" href="http://techknightsolutions.com/product-solutions/">
+                     <a class="button1" href="http://techknightsolutions.com/product-solutions/">
                           <span>Home</span>
                      </a>
                </li>
 
             <li class="nav-item" >
               <div class="dropdown">
-              <a  class="button"  href="http://techknightsolutions.com/product-solutions/">
+              <a  class="button1"  href="http://techknightsolutions.com/product-solutions/">
                    <span >Product & solutions</span>
                    <div class="dropdown-content">
                      <a href="http://techknightsolutions.com/web-development/">Web Development</a>
@@ -307,7 +218,7 @@
             </li>
             <li class="nav-item">
               <div class="dropdown">
-              <a  class="button" href="http://techknightsolutions.com/service-consulting/">
+              <a  class="button1" href="http://techknightsolutions.com/service-consulting/">
                 <span>Service & Consulting</span>
                 <div class="dropdown-content">
                   <a href="http://techknightsolutions.com/seo/">SEO</a>
@@ -322,7 +233,7 @@
             </li>
             <li class="nav-item">
               <div class="dropdown">
-              <a  class="button" href="http://techknightsolutions.com/agent-eknight/">
+              <a  class="button1" href="http://techknightsolutions.com/agent-eknight/">
                 <span>Agent eKnight</span>
 
               </a>
@@ -330,7 +241,7 @@
             </li>
             <li class="nav-item">
               <div class="dropdown">
-              <a  class="button" href="http://techknightsolutions.com/contact/">
+              <a  class="button1" href="http://techknightsolutions.com/contact/">
                 <span>Contact eKnight</span>
 
               </a>
